@@ -19,7 +19,7 @@ public class helloWorldEx extends HttpServlet {
 
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-		out.println("<h1>Hello World !! Welcome to Jenkins !</h1>");
+		out.println("<h1>Hello World !! Welcome to Jenkins !!</h1>");
 	}
 
 }
